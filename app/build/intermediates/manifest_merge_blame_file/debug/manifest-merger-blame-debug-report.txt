@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jerry.mappy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:10:5-31:19
+21        android:allowBackup="true"
+21-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\06217b2f34cabfa14175df71e7e28826\core-1.3.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:13:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:15:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:16:9-40
+30        <activity android:name="com.jerry.mappy.MapActivity" />
+30-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:17:9-58
+30-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:17:19-46
+31        <activity android:name="com.jerry.mappy.MainActivity" >
+31-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:18:9-24:20
+31-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:18:19-47
+32            <intent-filter>
+32-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:20:17-69
+33-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:22:17-77
+35-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:25:9-27:69
+40            android:name="com.google.android.gms.version"
+40-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:26:13-58
+41            android:value="@integer/google_play_services_version" />
+41-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:27:13-66
+42        <meta-data
+42-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:28:9-30:70
+43            android:name="com.google.android.geo.API_KEY"
+43-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:29:13-58
+44            android:value="AIzaSyCSN0S7v-OqvBG1A6srHLP530UJX6uR7NM" />
+44-->C:\Users\dell\Desktop\mappy\mappy\app\src\main\AndroidManifest.xml:30:13-68
+45        <!-- Needs to be explicitly declared on P+ -->
+46        <uses-library
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+47            android:name="org.apache.http.legacy"
+47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+48            android:required="false" />
+48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\6bc4ba2bac5e079eb63a5906bfcbac73\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+49
+50        <activity
+50-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+51            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+51-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+52            android:excludeFromRecents="true"
+52-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+55        <!--
+56            Service handling Google Sign-In user revocation. For apps that do not integrate with
+57            Google Sign-In, this service will never be started.
+58        -->
+59        <service
+59-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+60            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+60-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+61            android:exported="true"
+61-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+62            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+62-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+63            android:visibleToInstantApps="true" />
+63-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\62a7759b12e2efc9849639ec1f8096d4\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\9cbbe77956bea13e851f778837c0f225\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\9cbbe77956bea13e851f778837c0f225\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\9cbbe77956bea13e851f778837c0f225\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\9cbbe77956bea13e851f778837c0f225\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+69    </application>
+70
+71</manifest>
